@@ -6,8 +6,8 @@ HSnake is my take on the classic Snake type game, with custom levels, enemies, a
     All files are licensed under the MIT License, except audio who's copyrights belongs with their respective copyright holders. HSnake is an educational and entertainment project for myself and my own interest. Support is not guarenteed. AI was used where it was needed.
 
 - Compilation
-    This project requires Maven to compile. Once installed simply run the command "mvn package" in the project's root folder (this folder with the readme in it :P). The compiled executable will be exported to target/HSnake.jar. To run, type the command "java -jar HSnake.jar"
-    I am currently in the packaging and distribution stage of development. There is an experimental "build.sh" script to package and export the project as a .rpm
+    This project requires Maven to compile. Once installed simply run the command "mvn verify" in the project's root folder (this folder with the readme in it :P). The compiled executable will be exported to target/HSnake.jar. To run, type the command "java -jar HSnake.jar"
+    I am currently in the packaging and distribution stage of development. There is an experimental RPM of the project that will compile itself in target/pkg automatically.
 
 - Common issues
     >java.awt.HeadlessException
